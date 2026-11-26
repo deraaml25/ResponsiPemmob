@@ -4,7 +4,7 @@
 
 ---
 
-## 📸 Tampilan Aplikasi
+##  Tampilan Aplikasi
 
 <div align="center">
 
@@ -17,7 +17,7 @@
 
 ---
 
-## ✨ Fitur Utama
+##  Fitur Utama
 
 ### 🏠 Layar Home (Cuaca Utama)
 - **Sapaan kontekstual waktu** — *Selamat Pagi / Siang / Sore / Malam*
@@ -37,17 +37,17 @@
 - **Responsif 2 kolom** pada layar lebar ≥ 600 px (tablet / desktop)
 - **Swipe-to-Dismiss** untuk menghapus favorit dengan konfirmasi gestur
 
-### 💾 Persistensi Lokal
+###  Persistensi Lokal
 - Daftar lokasi favorit disimpan di **SharedPreferences** (format JSON)
 - Lokasi terakhir yang dipilih dimuat otomatis saat aplikasi dibuka kembali
 
-### ♿ Aksesibilitas
+###  Aksesibilitas
 - Semua tombol aksi dilengkapi `Semantics` label dan `Tooltip`
 - Area sentuh minimum 48×48 px pada setiap elemen interaktif
 
 ---
 
-## 🎨 Desain & Palet Warna
+##  Desain & Palet Warna
 
 ### Palet Sand (Contrast Safe — AA Pass)
 
@@ -72,7 +72,7 @@
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Kategori | Teknologi |
 |---|---|
@@ -86,7 +86,7 @@
 
 ---
 
-## 📂 Struktur Proyek
+##  Struktur Proyek
 
 ```
 lib/
@@ -127,7 +127,7 @@ lib/
 
 ---
 
-## 🏗️ Arsitektur MVVM
+##  Arsitektur MVVM
 
 ```
 ┌──────────────────┐   event   ┌───────────────────────┐   call   ┌────────────────────┐
@@ -150,7 +150,7 @@ lib/
 
 ---
 
-## 🌐 API Open-Meteo
+##  API Open-Meteo
 
 ### A. Geocoding (Cari Kota)
 ```
@@ -172,7 +172,7 @@ GET https://api.open-meteo.com/v1/forecast
 
 ---
 
-## 🚀 Cara Menjalankan
+##  Cara Menjalankan
 
 ```bash
 # 1. Clone repositori
@@ -193,7 +193,7 @@ flutter run -d android
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 ```bash
 # Analisis statis (0 issues)
@@ -205,7 +205,7 @@ flutter test
 
 ---
 
-## 📋 Dependensi (`pubspec.yaml`)
+##  Dependensi (`pubspec.yaml`)
 
 ```yaml
 dependencies:
@@ -221,8 +221,6 @@ dependencies:
 ---
 
 <div align="center">
-
-Dibuat dengan ❤️ untuk tugas Responsi Praktikum Pemrograman Mobile
 
 **[Dera Amelia](https://github.com/deraaml25)** · Universitas Jenderal Soedirman
 
